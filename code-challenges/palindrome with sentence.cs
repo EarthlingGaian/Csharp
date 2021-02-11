@@ -1,5 +1,5 @@
 // C# program for checking 
-// balanced Brackets 
+// palindrome with sentence
 using System; 
 using System.Collections.Generic; 
 using System.Linq;
@@ -35,8 +35,7 @@ public class Balanced {
             cstack.Pop();
 
         }
-         //Console.WriteLine(cstack2.Count);
-         //Console.WriteLine(cstack.Count);
+   
            
         if (cstack.Count != cstack2.Count)  
         {  
