@@ -49,8 +49,6 @@ public class Balanced {
         }
         
 
-         Console.WriteLine(cstack2.Count);
-         Console.WriteLine(cstack.Count);
            
         if (cstack.Count != cstack2.Count)  
         {  
@@ -84,4 +82,4 @@ public class Balanced {
 
 
     }
-    }
+}
